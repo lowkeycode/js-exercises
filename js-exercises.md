@@ -172,9 +172,223 @@ The first falsey value will return. If none returns last value.
 
 81. Call the repeat method on a variable.
 
+82.  What is a first class function?
+
+83. What is a higher order function?
+
+84. What is abstraction?
+
+85. Write a higher order greet function that takes in a greeting and returns a function that takes in a name. Call it using the inner function. Call it using the outer function.
+
+86. Explain the call method.
+
+87. Create an airline object that includes the name of the airline, the airline code, an empty bookings array and a book method that takes in a name and flight number that pushes the flight to the bookings array.
+
+88. Create a different second airline object with all the same properties as the first, EXCLUDING the book method.
+
+89. Create a global book function by storing the first objects book method in a variable.
+
+90. Use the call method on the variable to book a flight on the second object.
+
+91. Explain the apply method.
+
+92. Create a different third airline object with the same properties as the second. Use the apply method to book a flight on the third object.
+
+93. Use the call method with the spread operator to book a flight on the third object. Which one is used more in modern js, call or apply? 
+
+94. How does the bind method work? 
+
+95. Create a variable that holds the value of the book.bind method being called on the second object. Use the variable (now a function) to book a flight on the second object.
+
+96. Use a code editor. Create an airline object holding the amount of planes the airline has. Add a buyPlane method that increases the planes by 1. Create a simple buy button. Add an event listener for a click with the airline.buyPlane method. Explain what is happening with the this keyword and what is happening with the airline.buyPlane method. To fix this which method should be used? Call, Bind or Apply? Why? Fix the event listener.
+
+97. What is encapsulation?
+
+98. What is an IIFE?
+
+99. Write a plain code block with let,const and var with numbers assigned to them. Access the variables from a console log outside the block. Why is the result what it is?
+
+100. What is a closure?
+
+101. Write a closure. console.dir the function in Chrome and view the variables inside the Scopes tab -> Closure tab.
+
+102. What is the difference between slice and splice? How are they each used?
+
+103. Create an array with the length of ten holding randomly generated numbers between 1 and 50. Use slice on it. Console log the array. Use splice on it. Console log the array. 
+
+104. How is the reverse method used? Use the reverse method on the array. Console log the array.
+
+105. How is the concat method used? Use the concat method on 2 new arrays with random numbers between 1 and 50 and the length of 5 for each.
+
+106. How does the join method work? Use the join method on the concatted array from #105 to separate each number by a dash.
+
+107. How does the forEach method work on an array?
+
+108. Create an array of bank withdraws/deposits called movements, between -1000 and 2000 with the length of 10. Use a for of loop to console.log based on a conditional stating if it was a withdrawal or deposit and number each movement by index. Show the numbers only in positive amounts for both deposits AND withdrawals.
+
+109. Do the same as #108 with the forEach method.
+
+110. What is the difference between forEach and the for of loop? Use the 2 differences in the for of loop.
+
+111. How does the forEach method work on maps and sets?
+
+112. How do you set a throw away variable in a function?
+
+113. What is the difference between textContent and innerHTML?
+
+114. Why should you create a copy of an argument passed to a function when altering it within the function?
+
+115. Explain the map method.
+
+116. Explain the filter method.
+
+117. Explain the reduce method.
+
+118. Create a new movements array of random numbers between -500 and 500 with the length of 10. Create a conversion rate variable. Use the map method to get the converted currency array. Console lof the converted array. Console log the original array.
+
+119. What is the main difference between map and forEach?
+
+120. Create an accounts array holding 3 user objects. Create a function that creates a username being the first letter of each first, middle and last name lowercased.(Hint - use forEach and map)
+
+121. Use the filter method to get all deposits from the original array in #118. Get all the withdrawals.
+
+122. What is the big advantage of using these built in methods over the for of loop?
+
+123. Use the reduce method to get the total of all the movements from the original array in #118.
+
+124. Create an array of random numbers between -500 and 100 with the length of 15. Use filter, map and reduce to get the total of all the deposits converted to a different currency with a conversion rate of 1.3.
+
+125. When chaining the above methods, access the array param to look at the data to ensure only deposits (positive numbers) are getting returned.
+
+126. What is a downfall to chaining methods?
+
+127. Explain the find method. Use it on a random array.
+
+128. How can you reset multiple variables?
+
+129. Use optional chaining with the nullish coalescing operator.
+
+130. Explain the findIndex method.
+
+131. What is a major use case of splice?
+
+132. What is the difference between findIndex and indexOf?
+
+133. Explain some and every.
+
+134. Explain flat and flatMap.
+
+135. Create an array with a nesting 1 level deep. Use the flat method on it. Create an array with a nesting 3 levels deep. Use the flat method on it.
+
+136. Create 4 different account objects with different movements in them. Store them all in an array. The bank wants to get the overall balance of all accounts. Use the map, flat and reduce method, chaining them.
+
+137. Do the same as #136 with flatMap.
+
+138. Explain the sort method.
+
+139. Create an array of random numbers between -1000 and 1000 that has a length of 50. Sort them descending comparing with > and <. Sort them ascending using subtraction.
+
+140. Use a code editor. Create 10 paragraphs centered on the page in a column. Use Array.from to store them in an array.
+
+141. Explain why we usually want to convert different data structures to Arrays when working with them.
+
+142. Explain each method after naming. Which array methods insert data? Delete data? What is to be remembered when using reverse, sort or fill? Which methods should be used to create a new array? Which methods should be used to find the index? Which method to use to get an array element based on a conditional? Which methods to use to see if an array hold certain elements? Which method to build a string from an array? Which method to use to transform all the values to a single one? Which methods to loop over an array?
+
+143. Explain a floating point number.
+
+144. How are numbers stored in JS? What does this have to do with fractions in JS?
+
+145. How do you easily convert a string to a number?
+
+146. Explain parseInt and parseFloat. Use them on a decimal number.
+
+147. Explain isNaN, isFinite and isInteger. Which is the best to check if a value is a real number?
+
+148. What are the 2 ways to get the square root of a number? How do you get the cubic root of a number?
+
+159. Explain the max and min methods.
+
+160. Get the area of a circle that has a radius of 10px;
+
+161. Explain the trunc, round, ceil, toFixed and floor methods. Use them. What is the difference between trunc and floor?
+
+162. How do you check if a value is odd or even?
+
+163. Use a code editor. Create 10 paragraphs centered on the page in a column. Spread the nodelist into an array and use the modulus to style each even number paragraphs background color to a different color
+
+164. Explain BigInt and the syntax to use it.
+
+165. What is the Unix Epoch?
+
+166. Name the 4 ways to create dates with the Date object. What is a good practice when creating dates?
+
+167. Create a variable called future that stores a new date with the following arguments. 2037, 10, 19, 15, 23. Call the getFullYear,getFullMonth, getDate, getDay, getHours, getMinutes, getSeconds, toISOString and getTime method on it. Call the Date.now method. 
+
+168. What are the setting methods for dates?
+
+167. Use padStart and a template literal to prepend any 1 digit day with a 0.
+
+168. Use a code editor. Create 10 divs that will be user cards with a name and photo. Make them look half decent. Hit the API at https://randomuser.me/photos. Loop over the node list as well as the returned JSON at the same time to set each photo and name.
+
+169. Create a function that calculates the number of days passed between 2 dates. Use the abs method to return a positive number.
+
+170. Explain the IntlTimeFormat API.
+
+171. Use a code editor. Create a centered div on the screen. Use the IntlDateTimeFormat to display the current day, month, date, year and time. Add ordinals to the day.
+
+172. Explain setTimeout and setInterval. Use them both. Clear them both.
+
+173. What is the DOM?
+
+174. What is an HTML Collection and how do you select one?
+
+175. What is the difference between textContent and innerHTML?
+
+176. Use a code editor. Create a div DOM element. Change the textContent. Change the innerHTML. Prepend it to a container div. Append it to a container div. Use the before and after methods to insert the div in the container. use the cloneNode method on the div when calling the append. Use the remove method to remove the div from the DOM.
+
+177. Explain the getComputedStyle method. Use it on a random webpage element.
+
+178. Explain the setProperty method. Use a code editor. Create a single div. Use the setProperty method on it.
+
+179. Using the div from #178 add a two word data attribute on the HTML and log it in the console.
+
+180. Explain scrollTo and scrollInto View. Use a code editor. Create 3 section 1000px high. Use the methods on the second and third sections.
+
+181. Using the following snippet explain the 3 stages of event propagation and path when clicking on the link element.
+
+```html
+<html>
+  <body>
+    <section>
+      <p>
+        <a>link</a>
+      </p>
+    </section>
+  </body>
+</html>
+```
+
+Use the following functions and add an event listener to the section, paragraph and link for a click running the randomColor function to observe more visually what happens.
 
 
+```js
+const randomInt = (min, max) => {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+};
+const randomColor = () =>
+  `rgb(${randomInt(0, 255)},${randomInt(0, 255)},${randomInt(0, 255)})`;
+```
 
+182. How do you stop event propagation? How do you listen to capturing instead of bubbling?
 
+183. Explain target and currentTarget.
 
+184. What is event delegation? What are the 2 steps to implementing event delegation?
 
+185. Use a code editor. Create a header with 3 links to the corresponding sections. Create 3 section 1000px high. Add basic styles as needed. Use event delegation to smooth scroll (using scrollTo and scrollIntoView) to each section make it robust where if a fourth link and section are added, they already work.
+
+186. Explain the closest method.
+
+187. Use a code editor. Create a tabbed component. Ensure the tab has is labeled with a name and number. Wrap both in a button. Wrap the number in a span inside the button. Make use of the closest method. Use the following mockup to build the HTML and styles.
+
+![Tabbed Component](https://github.com/lowkeycode/js-notes/blob/master/tabbed-component.png)
