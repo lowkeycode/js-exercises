@@ -391,4 +391,4 @@ const randomColor = () =>
 
 187. Use a code editor. Create a tabbed component. Ensure the tab has is labeled with a name and number. Wrap both in a button. Wrap the number in a span inside the button. Make use of the closest method. Use the following mockup to build the HTML and styles.
 
-![Tabbed Component](https://github.com/lowkeycode/js-exercises/tabbed-component.png)
+![Tabbed Component](https://github.com/lowkeycode/js-exercises/blob/master/tabbed-component.png)
