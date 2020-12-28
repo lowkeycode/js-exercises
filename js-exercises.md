@@ -392,3 +392,155 @@ const randomColor = () =>
 187. Use a code editor. Create a tabbed component. Ensure the tab has is labeled with a name and number. Wrap both in a button. Wrap the number in a span inside the button. Make use of the closest method. Use the following mockup to build the HTML and styles.
 
 ![Tabbed Component](https://github.com/lowkeycode/js-exercises/blob/master/tabbed-component.png)
+
+185. Explain the bind method. Use a code editor. Create a header nav with 5 links. Style as required. Create an event handler function that changes the opacity and border-bottom on mouseover/mouseout. (Hint use the bind method.)
+
+186. What is the downside of using the scroll event listener? What should be used in its place. Explain it.
+
+187. Use a code editor. Create a sticky nav using the API alluded to in #186.
+
+188. Use a code editor. Create a reveal elements on scroll using the API from #186.
+
+186. Explain lazy loading.
+
+187. Get some images from unsplash. Create a lazy load on scroll. Make sure to apply a css filter to blur the smaller images. (Hint utilize the data attribute in the html)
+
+188. Explain lifecycle DOM events.
+
+189. Explain the difference between async, defer and regular placement of the script tag at the end of the body.
+
+190. Explain OOP. 
+
+191. Explain the 4 main principles of OOP.
+
+192. Explain prototypal inheritance/ prototype chain. Explain the prototype property. What are 3 ways to implement it?
+
+193. Explain constructor functions. What 4 things happen when calling the constructor? Use a constructor function to create a person class. Create 3 people with it.
+
+194. Add a method to the person class from #192.
+
+195. Explain ES6 Classes. Explain properties/methods defined inside the constructor. Explain ones defined outside the constructor.
+
+196. Explain setters and getters. Can a setter and getter be named the same? What is the requirement of setters?
+
+197. Explain static methods. Explain instance methods.
+
+198. What is important to remember about arrow functions when working with OOP?
+
+199. If a method or property is not found in the prototype chain, what is returned?
+
+200. Explain Object.create.
+
+201. How do you create inheritance with constructor functions? What all needs to be inherited?
+
+202. Using a constructor function, create a person class with a student class that inherits from the person. Use an inherited method from person. Define and use a method for student.
+
+203. How does inheritance work in ES6 classes? Rewrite the constructor function in #202 to be a class.
+
+204. How is polymorphism used in classes? Write a polymorphed method in the class from #203. Compare the students method to the person method of the same name.
+
+205. How does inheritance work with Object.create? Write a PersonProto function constructor with 2 methods. Create an extended class with it using Object.create called StudentProto. Use the inherited methods.
+
+206. What are the 4 steps to project planning? Describe each of them in detail.
+
+207. What needs to be kept in mind when we retrieve an object from local storage?
+
+208. Explain asynchronous vs synchronous.
+
+209. Explain AJAX and how it works.
+
+210. Explain what an API is.
+
+211. Use a whiteboard or a piece of paper. Explain how the web works in a diagram. Additionally explain HTTP requests/responses.
+
+212. Explain callback hell.
+
+213. Explain promises, the .then method, the .catch method and the .finally method.
+
+214. Explain why and when we have to manually throw errors with fetch and how.
+
+215. If there are 2 AJAX calls chained what should be done to handle both errors?
+
+216. Use a code editor. Use promises with .then and .catch to make an AJAX call to https://restcountries.eu/ and implement error handling. Display some information about a country and a neighboring country.
+
+217. Use a whiteboard. Explain how the following code is run asynchronously in the browser. Hint there are 5 main parts.
+
+```js
+el = document.querySelector("img");
+el.src = "dog.jpg";
+el.addEventListener("load", () => {
+  el.classList.add("fadeIn");
+});
+
+fetch("https://someurl.com/api").then((response) => console.log(response));
+```
+
+218. Explain how to manually create a promise and the use cases for creating them. (Promisifying).
+
+219. Use a code editor. Promisify the web geolocation api. Reverse geocode it using a reverse geocode api to get the users current location. Using the reverse geocode use the https://restcountries.eu/ api to display the users country.
+
+220. Explain async/await.
+
+221. Explain error handling methodwith async/await. 
+
+222. Explain running promises in parallel and the 4 associated methods.
+
+223. Explain the build process (Bundling, compressing, minifying, compiling, transpiling, tree shaking and polyfilling).
+
+224. Explain ES6 Modules vs a regular script and how modules are imported.
+
+225. What are the 2 types of exports?
+
+226. How were modules implemented prior to ES6 modules.
+
+227. Explain CommonJS modules and why we need them and their relation to npm.
+
+228. Use a code editor. Use lodash to deep clone an object.
+
+229. Explain hot module replacement in parcel and how to write it.
+
+230. Explain the benefit of a library like core-js in relation to parcel/babel.
+
+231. What does the npm package regenerator runtime do?
+
+232. What makes code readable? (5 things)
+
+232. What are 4 general rules of coding JS?
+
+232. What are 5 general rules for functions?
+
+233. What are 4 general rules for OOP in JS?
+
+234. What are 5 ways to avoid nested code?
+
+235. What are 3 general rules of using asynchronous code?
+
+236. Explain imperative vs declarative.
+
+237. Explain functional programming, side effects and pure functions.
+
+238. Explain reformatting the data from an api request that would have underscores that are not desired.
+
+239. Explain importing an icons image file with parcel than holds multiple svg icons and how to use it when rendering som markup.
+
+240. Explain the hashchange and load event and using them together.
+
+241. Explain the 3 main paradigms of a good architecture.
+
+242. Explain the 5 main components of an architecture.
+
+243. Explain the MVC architecture and separate the 5 main components of an architecture into the 3 sections.
+
+242. Explain the 2 special modules that are exceptions to th rest of the architecture and what they hold.
+
+243. Explain the publisher/subscriber pattern and what problem it solves.
+
+244. When creating/implementing a new feature what part should be working first.
+
+245. Use a code editor. Implement a search bar to filter data from an api. Display results that match.
+
+256. Implement pagination for the results from #245.
+
+257. Explain creating a virtual DOM and why to do so.
+
+258. Explain state and how to store it.
