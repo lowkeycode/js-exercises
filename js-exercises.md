@@ -1,6 +1,6 @@
 1. Name all Javascript data types.
 
-2. Explain the difference between reference types and primitives.
+2. Explain the difference between reference types and primitives. Additionally use Object.assign to create a shallow copy of an object. Then alter an array (which is an object) inside of the copied. Log both objects.
 
 3. Create an object of 5 arrays (min-length: 4 strings per array) and destructure the first array in to it's own variables.
 
