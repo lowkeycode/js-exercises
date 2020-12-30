@@ -104,31 +104,31 @@ The first falsey value will return. If none returns last value.
 
 48. What are the 4 main data structures in Javascript?
 
-49. If you have a simple list what data structure should you use?
+49. If you have a simple list what data structure should you use? Array or Set.
 
-50. If you have key/value pairs which structure types should you use?
+50. If you have key/value pairs which structure types should you use? Map.
 
-51. If you need an ordered list that may contain duplicates, what data structure should you use?
+51. If you need an ordered list that may contain duplicates, what data structure should you use? Arrays.
 
-52. If you have unique values what data structure should you use?
+52. If you have unique values what data structure should you use? Sets.
 
-53. What data structure should you use if you need to include functions?
+53. What data structure should you use if you need to include functions? Objects.
 
-54. If you need to manipulate data, what data structure should you use?
+54. If you need to manipulate data, what data structure should you use? Arrays.
 
-55. If you require high-performance (up to 10x faster than arrays for lookup/delete) which data structure should you use?
+55. If you require high-performance (up to 10x faster than arrays for lookup/delete) which data structure should you use? Sets.
 
-56. If you are working with JSON what data structure should you use?
+56. If you are working with JSON what data structure should you use? Objects. Easily converts to Arrays.
 
-57. If you need keys that can hold any data type what data structure should you use?
+57. If you need keys that can hold any data type what data structure should you use? Maps.
 
-58. If you need to remove duplicates, what data structure should you use?
+58. If you need to remove duplicates, what data structure should you use? Sets.
 
 59. If you need to easily access and write values what data structure should you use?
 
-60. If you need better performance, easy iteration, size computation and only key/value pairs, what data structure should you use?
+60. If you need better performance, easy iteration, size computation and only key/value pairs, what data structure should you use? Maps.
 
-61. If you need a this keyword to access properties, which data structure should you use?
+61. If you need a this keyword to access properties, which data structure should you use? Object.
 
 62. Are string methods case sensitive?
 
