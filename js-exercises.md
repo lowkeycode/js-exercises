@@ -18,7 +18,7 @@
 
 10. Explain strict mode.
 
-11. Explain function expressions vs declarations vs arrow function. How does using declarations as a default create structure? Write one of each when comparing.
+11. Explain function expressions vs declarations vs arrow function. How does using expressions as a default create structure? Write one of each when comparing.
 
 12. Explain the main attributes of Javascript as a language? GIMPSFDNH
 
